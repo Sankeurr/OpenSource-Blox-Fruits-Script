@@ -150,11 +150,11 @@ python scripts/build.py
 2. Run the loader (grabs the latest `dist/BF.lua`):
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/dist/BF.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sankeurr/OpenSource-Blox-Fruits-Script/main/dist/BF.lua"))()
 ```
 
-> Replace `YOUR_USERNAME/YOUR_REPO` with this repo's path. Using the raw loader means you always get
-> the newest version — no need to re-paste anything when the script updates.
+> Using the raw loader means you always get the newest version — no need to re-paste anything when
+> the script updates.
 
 ### Compatible executors
 
