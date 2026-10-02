@@ -33,6 +33,28 @@ bosses, bounty hunting and sea travel.
 
 ---
 
+## 🚀 How to use
+
+1. Open your executor and inject into Blox Fruits.
+2. Run the loader (grabs the latest `dist/BF.lua`):
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sankeurr/OpenSource-Blox-Fruits-Script/main/dist/BF.lua"))()
+```
+
+> Using the raw loader means you always get the newest version — no need to re-paste anything when
+> the script updates.
+
+### Compatible executors
+
+The script guards every exploit API it touches, so it runs on **any executor with standard
+functions**. Tested examples:
+
+- **Potassium**
+- **Wave**
+
+---
+
 ## 🧩 Features
 
 ### 🌾 Farming (`Farm` / `Farm 2` / `Farm 3`)
@@ -144,25 +166,15 @@ python scripts/build.py
 
 ---
 
-## 🚀 How to use
+## 🔍 `recon.lua` — developer dump tool
 
-1. Open your executor and inject into Blox Fruits.
-2. Run the loader (grabs the latest `dist/BF.lua`):
+`src/recon.lua` is a standalone developer utility (it is **not** bundled into `dist/BF.lua`). It
+dumps a Roblox game's RemoteEvents / RemoteFunctions and instance tree to a log file — it was used to
+map Blox Fruits while building this script.
 
-```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sankeurr/OpenSource-Blox-Fruits-Script/main/dist/BF.lua"))()
-```
-
-> Using the raw loader means you always get the newest version — no need to re-paste anything when
-> the script updates.
-
-### Compatible executors
-
-The script guards every exploit API it touches, so it runs on **any executor with standard
-functions**. Tested examples:
-
-- **Potassium**
-- **Wave**
+> ⚠️ **Be careful: this tool can dump Blox Fruits *or any other Roblox game*.** Use it only on games
+> you are allowed to inspect, and entirely **at your own risk**. The author is **not responsible** for
+> how you use it or for any consequences that follow.
 
 ---
 
