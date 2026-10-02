@@ -15,8 +15,8 @@ Clean modular Lua, built to behave like the game's own client traffic.
 
 ---
 
-> **Disclaimer.** This project is developed and used strictly for **authorized testing and
-> educational purposes** on accounts/experiences the author is permitted to test. Use it only
+> **Disclaimer.** This project is developed and used strictly for **testing and
+> educational purposes**. Use it only
 > where you have the right to. You are responsible for how you use it.
 
 ---
