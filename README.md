@@ -23,6 +23,10 @@ Clean modular Lua, built to behave like the game's own client traffic.
 
 ## ✨ Overview
 
+<div align="center">
+  <img src="assets/preview.png" alt="Blox Fruits Script — in-game GUI" width="560">
+</div>
+
 This is a single-file script you load into your executor. It opens a clean dark/red GUI
 with per-sea tabs — features that only exist in Sea 2 or Sea 3 stay hidden until you're there, so
 the menu never shows you things you can't use.
